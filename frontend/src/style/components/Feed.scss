@@ -1,0 +1,63 @@
+.wrapper-feed {
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .wrapper-center-feed {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: column;
+
+        padding: 2%;
+        margin: 2%;
+        width: 100%;
+        max-width: 350px;
+        background-color: white;
+
+        border-radius: 10px;
+        // background: grey;
+        .feed-content {
+            display: flex;
+            .perfile-feed {
+                display: flex;
+                justify-content: start;
+                .img-feed {
+                    img{
+                        width: 120px;
+                    }
+                }
+
+                .user-feed {
+                }
+            }
+        }
+
+        .body-feed {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .data-feed {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+            .buttondiv {
+
+                button {
+                    background: aquamarine;
+                    margin-right: 10px;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+
+            .text {
+            }
+        }
+    }
+}

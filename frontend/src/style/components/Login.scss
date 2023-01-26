@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(235, 231, 231);
+    margin: 8% 30% 0px 30%;
+    border-radius: 5px;
+    .logo-user {
+        img {
+            width: 75px;
+        }
+    }
+    .text-count {
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .email {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .password {
+             width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            .btn-sign-up {
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: start;
+            }
+
+            .btn-sign-in {
+                width: 100%;
+
+            }
+        }
+    }
+}

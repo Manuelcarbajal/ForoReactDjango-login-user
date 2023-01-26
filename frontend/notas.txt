@@ -1,0 +1,2 @@
+npm i axios redux-thunk react-router-dom react-icons react-redux
+npm install --save redux-devtools-extension
